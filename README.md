@@ -25,7 +25,8 @@ Logic behind the Algorithm is to check palindrome string for given position
 			}
 			pal1 = "";
 		} 
-
+		```
+   
 
 Recursively checking longest possible palindrome for given string
 
@@ -39,3 +40,4 @@ Recursively checking longest possible palindrome for given string
     	}
      	 else return pal;
 	}
+	```
