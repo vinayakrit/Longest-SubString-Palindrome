@@ -15,7 +15,8 @@ There are multiple algorithm available for calculating _longest_ _SubString_ _Pa
 
 Logic behind the Algorithm is to check palindrome string for given position 
 
-    for(int i =0 ; i < str.length()-2; i++){  
+      ```java 
+      for(int i =0 ; i < str.length()-2; i++){  
 			pal1= "" +str.charAt(i+1);
 			pal1 = isPalindrome(str, i, nxt, pal1, cnt);
 			if(max<=pal1.length()){
@@ -28,6 +29,7 @@ Logic behind the Algorithm is to check palindrome string for given position
 
 Recursively checking longest possible palindrome for given string
 
+     ```java
     public static String isPalindrome(String str, int start, int end, String pal){
     	 if(start == 0 || end == str.length())
     	    return str.charAt(start) + "" + pal + str.charAt(end);
