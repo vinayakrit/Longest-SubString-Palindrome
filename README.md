@@ -25,7 +25,7 @@ for(int i =0 ; i < str.length()-2; i++){
 		}
 		pal1 = "";
 	} 
-	```
+```
    
 
 Recursively checking longest possible palindrome for given string
@@ -40,4 +40,4 @@ Recursively checking longest possible palindrome for given string
     	}
      	 else return pal;
 	}
-	```
+```
